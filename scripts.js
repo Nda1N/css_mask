@@ -10,21 +10,22 @@ const ctx = canvas.getContext('2d');
 // 動画のパスを指定
 const videoPaths = {
     city1: ['city_human.mp4', 'human_s.mp4'],
-    city2: ['dog_tb.mp4', 'dog_t.mp4'],
-    city3: ['cat_tb.mp4', 'cat_t.mp4'],
-    city4: ['crow_tb.mp4', 'crow_t.mp4'],
-    grass1: ['giraffe_tb.mp4', 'giraffe_t.mp4'],
-    grass2: ['meerkat_tb.mp4', 'meerkat_t.mp4'],
-    grass3: ['horse_tb.mp4', 'horse_t.mp4'],
-    grass4: ['kangaroo_tb.mp4', 'kangaroo_t.mp4'],
-    jungle1: ['gibbon_tb.mp4', 'gibbon_t.mp4'],
-    jungle2: ['bear_tb.mp4', 'bear_t.mp4'],
-    jungle3: ['ezorisu_tb.mp4', 'ezorisu_t.mp4'],
-    jungle4: ['deer_tb.mp4', 'deer_t.mp4'],
-    ocean1: ['penguin_tb.mp4', 'penguin_t.mp4'],
-    ocean2: ['seal_tb.mp4', 'seal_t.mp4'],
-    ocean3: ['seaotter_tb.mp4', 'seaotter_t.mp4'],
-    ocean4: ['seaturtle_tb.mp4', 'seaturtle_t.mp4']    
+city2: ['city_dog.mp4', 'dog_s.mp4'],
+city3: ['city_cat.mp4', 'cat_s.mp4'],
+city4: ['city_crow.mp4', 'crow_s.mp4'],
+grass1: ['grass_giraffe.mp4', 'giraffe_s.mp4'],
+grass2: ['grass_meerkat.mp4', 'meerkat_s.mp4'],
+grass3: ['grass_horse.mp4', 'horse_s.mp4'],
+grass4: ['grass_kangaroo.mp4', 'kangaroo_s.mp4'],
+jungle1: ['jungle_gibbon.mp4', 'gibbon_s.mp4'],
+jungle2: ['jungle_bear.mp4', 'bear_s.mp4'],
+jungle3: ['jungle_ezorisu.mp4', 'ezorisu_s.mp4'],
+jungle4: ['jungle_deer.mp4', 'deer_s.mp4'],
+ocean1: ['ocean_penguin.mp4', 'penguin_s.mp4'],
+ocean2: ['ocean_seal.mp4', 'seal_s.mp4'],
+ocean3: ['ocean_seaotter.mp4', 'seaotter_s.mp4'],
+ocean4: ['ocean_seaturtle.mp4', 'seaturtle_s.mp4']
+   
 };
 
 
