@@ -9,7 +9,7 @@ const ctx = canvas.getContext('2d');
 
 // 動画のパスを指定
 const videoPaths = {
-    city1: ['human_tb.mp4', 'human_t.mp4'],
+    city1: ['city_human.mp4', 'human_s.mp4'],
     city2: ['dog_tb.mp4', 'dog_t.mp4'],
     city3: ['cat_tb.mp4', 'cat_t.mp4'],
     city4: ['crow_tb.mp4', 'crow_t.mp4'],
