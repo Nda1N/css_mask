@@ -87,12 +87,15 @@
 
 /* 動画の透過風表示 */
 video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    mix-blend-mode: multiply; /* 黒い部分を透過 */
-    background: black; /* 背景を黒に設定 */
-    object-fit: contain; /* 動画が枠内に収まるように調整 */
+    object-fit: contain;
+    mix-blend-mode: multiply;  /* 黒を透過する */
 }
+
 
 
 #closeButton {
