@@ -28,6 +28,9 @@ ocean4: ['ocean_seaturtle.mp4', 'seaturtle_s.mp4']
    
 };
 
+navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
+    document.getElementById('cameraFeed').srcObject = stream;
+});
 
 // 再生中のフラグと現在の動画インデックス
 let isPlaying = false;
